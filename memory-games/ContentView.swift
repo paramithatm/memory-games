@@ -14,11 +14,10 @@ struct ContentView: View {
     struct Heart: Identifiable {
         let id = UUID()
         let heart: String
-        var isOpen: Bool
     }
     
     var hearts = ["❤️", "🧡", "💛", "💚", "💙", "💜", "❤️", "🧡", "💛", "💚", "💙", "💜"].map { heart in
-        Heart(heart: heart, isOpen: false)
+        Heart(heart: heart)
     }.shuffled()
 
     
