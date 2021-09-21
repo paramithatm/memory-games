@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C2DF4AFE26F0CF2800241159 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DF4AFD26F0CF2800241159 /* GameView.swift */; };
+		C2DF4B0026F0D36300241159 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DF4AFF26F0D36300241159 /* CardView.swift */; };
 		C2E7FF0326ECF50900216929 /* memory_gamesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E7FF0226ECF50900216929 /* memory_gamesApp.swift */; };
 		C2E7FF0526ECF50900216929 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E7FF0426ECF50900216929 /* ContentView.swift */; };
 		C2E7FF0726ECF50A00216929 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2E7FF0626ECF50A00216929 /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C2DF4AFD26F0CF2800241159 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		C2DF4AFF26F0D36300241159 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		C2E7FEFF26ECF50900216929 /* memory-games.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "memory-games.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2E7FF0226ECF50900216929 /* memory_gamesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memory_gamesApp.swift; sourceTree = "<group>"; };
 		C2E7FF0426ECF50900216929 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				C2E7FF1026ECF50A00216929 /* Info.plist */,
 				C2E7FF0D26ECF50A00216929 /* memory_games.xcdatamodeld */,
 				C2E7FF0826ECF50A00216929 /* Preview Content */,
+				C2DF4AFD26F0CF2800241159 /* GameView.swift */,
+				C2DF4AFF26F0D36300241159 /* CardView.swift */,
 			);
 			path = "memory-games";
 			sourceTree = "<group>";
@@ -148,6 +154,8 @@
 				C2E7FF0526ECF50900216929 /* ContentView.swift in Sources */,
 				C2E7FF0F26ECF50A00216929 /* memory_games.xcdatamodeld in Sources */,
 				C2E7FF0326ECF50900216929 /* memory_gamesApp.swift in Sources */,
+				C2DF4B0026F0D36300241159 /* CardView.swift in Sources */,
+				C2DF4AFE26F0CF2800241159 /* GameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
